@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+ 
+* {
+    
+font-family: 'Fredoka'
+
+}
+
+body {
+    margin: 0 auto;
+}
+
+/* tete de page */
+
+header.header {
+display: flex;
+align-items : center;
+}
+
+
+
+header.header img {
+    width: 150px
+
+}
+
+section.top-page {
+    background: url('../Photos/fondfond.jpg');
+    height: 130vh;
+}
+
+/* haut de la page principale */
+
+
+.premier-titre { 
+    color: rgb(246, 255, 0);
+font-size: 60px;
+padding: 60px 370px;
+text-shadow: 1px 1px 2px rgb(15, 0, 129), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+text-align: center;
+position:relative;
+top: 330px;
+width: max-content;
+}
+
+.logotitre {
+text-align: center;
+position:relative;
+bottom: 350px;
+}
+
+
+/* menu de navigation */
+nav.nav {
+
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 1100px;
+    width: 400px;
+    
+
+}
+
+nav.nav li {
+color:rgb(242, 255, 0);
+
+
+}
+
+.description-site {
+
+    color: rgb(246, 255, 0);
+    font-size: 20px;
+    padding: 350px 340px;
+    text-shadow: 1px 1px 2px rgb(15, 0, 129), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+ text-align: center;
+ position: relative;
+ min-width: min-content;
+
+}
+
+.image-description {
+
+    text-align: center;
+position:relative;
+bottom: 915px;
+box-shadow: 0cap;
+
+}
+
+/* page de cartes*/
+
+section.contenu {
+
+
+        background: url('../Photos/fondcartes.jpg');
+        height: 145vh;
+
+
+
+}
+
+.type-feu {
+
+position: absolute;
+z-index: 99;
+top: 1390px;
+
+}
+
+.type-eau {
+
+    position: absolute;
+    z-index: 99;
+    top: 1380px;
+    
+    }
+
+    .autres-types {
+
+        position: absolute;
+        z-index: 99;
+        top: 1370px;
+        
+        }
+
+
+.background-contenu {
+
+    margin: 0;
+    height: 50vh;
+    box-shadow: 0cap;
+}
+
+
+/*bandeau*/
+.text-footer {
+
+    margin: 0;
+    position: absolute;
+    top: 300vh;
+    left: 160vh;
+    color: darkkhaki;
+}
+
