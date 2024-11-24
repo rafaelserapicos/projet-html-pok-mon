@@ -1,0 +1,103 @@
+/* Mode sombre */
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 16px; 
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Formulaire */
+  form {
+    padding: 20px;
+    margin: auto;
+    max-width: 400px;
+    border: 1px solid #000; 
+  }
+  /* Espacement */
+  form div {
+    margin-bottom: 10px; 
+  }
+  
+  /* Champs du formulaire */
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    margin: 5px 0; 
+  }
+  
+  /* Boutons */
+  button, input[type="reset"] {
+    padding: 10px;
+    border: none; 
+    background-color: #f0f0f0; 
+    color: #333; 
+  }
+  
+  /* Bouton Mode sombre */
+  #toggle-dark-mode {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: sans-serif;
+    border-radius: 0; 
+  }
+  
+
+  
+  /* Messages de succès et d'erreur */
+  .message-success,
+  .message-error {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 14px; 
+    text-align: left; 
+  }
+  
+  .message-success {
+    background-color: #e5ffe5;
+    color: green;
+  }
+  
+  .message-error {
+    background-color: #ffe5e5;
+    color: red;
+  }
+  
+  /* Tabs */
+  ul {
+    display: flex;
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none; /* Supprime les puces */
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #001aff;
+    border: 1px solid #000dff;
+    margin-right: 5px;
+  }
+  
+  .tab-active {
+    background-color: #ffea00;
+    color: black;
+  }
+  
+  .content {
+    display: none;
+  }
+  /* Affiche les éléments de l'onglet sélectionné */
+  .active {
+    display: block; 
+  }
+  
